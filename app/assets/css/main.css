@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", system-ui, sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+
+  /* 咖啡廳 */
+  --color-bean-50: #faf6f1;
+  --color-bean-100: #f1e7da;
+  --color-bean-300: #c9a77f;
+  --color-bean-600: #8a5a33;
+  --color-bean-800: #4a2f1c;
+  --color-bean-900: #2b1b10;
+
+  /* 工作室 / 美業 */
+  --color-blush-50: #fdf7f6;
+  --color-blush-100: #f8e9e6;
+  --color-blush-300: #e6b8ae;
+  --color-blush-500: #c97f72;
+  --color-blush-800: #5b3a35;
+
+  /* 住宿 / 包車 */
+  --color-sea-50: #f2f8f8;
+  --color-sea-100: #dcecec;
+  --color-sea-300: #8fc1c0;
+  --color-sea-600: #2f7d7b;
+  --color-sea-800: #1c4a4a;
+  --color-sand-100: #f6efe2;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply font-sans antialiased; }
