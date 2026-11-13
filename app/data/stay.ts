@@ -5,13 +5,13 @@ export default {
   tagline: '醒來就看見太平洋',
   intro:
     '位於花蓮七星潭旁的四間房小民宿，每間都有面海陽台。我們也提供在地包車，帶你走太魯閣、清水斷崖、花東縱谷，不用煩惱交通。',
-  heroImage: '',
+  heroImage: '/images/stay-hero.jpg',
   license: '花蓮縣民宿 第 000 號', // 合法民宿登記字號，台灣民宿網站必放
   rooms: [
-    { name: '海景雙人房', size: '8 坪', guests: 2, weekday: 3200, weekend: 3800, features: ['面海陽台', '雙人床', '浴缸'] },
-    { name: '海景四人房', size: '12 坪', guests: 4, weekday: 4800, weekend: 5600, features: ['面海陽台', '兩張雙人床', '客廳區'] },
-    { name: '庭園雙人房', size: '7 坪', guests: 2, weekday: 2600, weekend: 3000, features: ['私人庭園', '雙人床', '寵物可'] },
-    { name: '家庭套房', size: '15 坪', guests: 6, weekday: 6200, weekend: 7200, features: ['樓中樓', '小廚房', '海景'] },
+    { name: '海景雙人房', size: '8 坪', guests: 2, weekday: 3200, weekend: 3800, features: ['面海陽台', '雙人床', '浴缸'], image: '/images/stay-room-1.jpg' },
+    { name: '海景四人房', size: '12 坪', guests: 4, weekday: 4800, weekend: 5600, features: ['面海陽台', '兩張雙人床', '客廳區'], image: '/images/stay-room-2.jpg' },
+    { name: '庭園雙人房', size: '7 坪', guests: 2, weekday: 2600, weekend: 3000, features: ['私人庭園', '雙人床', '寵物可'], image: '/images/stay-room-3.jpg' },
+    { name: '家庭套房', size: '15 坪', guests: 6, weekday: 6200, weekend: 7200, features: ['樓中樓', '小廚房', '海景'], image: '/images/stay-room-4.jpg' },
   ],
   tours: [
     {

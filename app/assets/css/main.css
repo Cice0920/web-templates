@@ -26,6 +26,48 @@
   --color-sea-600: #2f7d7b;
   --color-sea-800: #1c4a4a;
   --color-sand-100: #f6efe2;
+
+  /* 早午餐 */
+  --color-yolk-100: #fdf1d6;
+  --color-yolk-400: #f2b33d;
+  --color-yolk-600: #c98a12;
+
+  /* 餐酒館 */
+  --color-night-700: #2c2521;
+  --color-night-800: #1f1a17;
+  --color-night-900: #14110f;
+  --color-gold-300: #e2c98f;
+  --color-gold-500: #c8a45c;
+  --color-wine-700: #6b1f2a;
+
+  /* 髮廊 */
+  --color-clay-100: #f3e3dc;
+  --color-clay-500: #b5654a;
+
+  /* 皮拉提斯 */
+  --color-sage-50: #f4f6f1;
+  --color-sage-100: #e4eadc;
+  --color-sage-300: #b5c4a3;
+  --color-sage-600: #5f7650;
+  --color-sage-800: #34422c;
+  --color-peach-200: #f7d9c4;
+
+  /* 露營 */
+  --color-moss-50: #f3f5ef;
+  --color-moss-100: #e1e7d6;
+  --color-moss-300: #a9b98f;
+  --color-moss-600: #4f6b3a;
+  --color-moss-800: #2a3a20;
+  --color-moss-900: #1a2414;
+  --color-ember-500: #d9773b;
+
+  /* 台南老宅 */
+  --color-cream-50: #fbf5ea;
+  --color-cream-100: #f3e7d0;
+  --color-brick-600: #a63d2f;
+  --color-brick-700: #842f24;
+  --color-ink-900: #2a2420;
+  --color-tile-600: #2e6f73;
 }
 
 html { scroll-behavior: smooth; }

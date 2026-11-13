@@ -63,7 +63,7 @@ const galleryTones = ['from-bean-100 to-bean-300', 'from-bean-300 to-bean-600', 
           </div>
         </div>
       </div>
-      <Photo alt="店內照片" tone="from-bean-100 to-bean-300" class="aspect-[4/5] rounded-t-full" />
+      <Photo :src="site.interiorImage" alt="店內照片" tone="from-bean-100 to-bean-300" class="aspect-[4/5] rounded-t-full" />
     </section>
 
     <!-- Menu -->
@@ -99,7 +99,7 @@ const galleryTones = ['from-bean-100 to-bean-300', 'from-bean-300 to-bean-600', 
 
     <!-- Gallery -->
     <section class="grid grid-cols-2 md:grid-cols-4">
-      <Photo v-for="(g, i) in site.gallery" :key="g" :alt="g" class="aspect-square" :tone="galleryTones[i % 4]" />
+      <Photo v-for="(g, i) in site.gallery" :key="g.name" :src="g.image" :alt="g.name" class="aspect-square" :tone="galleryTones[i % 4]" />
     </section>
 
     <!-- Visit -->

@@ -84,7 +84,7 @@ function submit() {
       <h2 class="mt-2 font-serif text-3xl font-bold">房型介紹</h2>
       <div class="mt-12 grid gap-8 md:grid-cols-2">
         <article v-for="(r, i) in site.rooms" :key="r.name" class="overflow-hidden rounded-3xl border border-sea-100">
-          <Photo :alt="r.name" :tone="roomTones[i % roomTones.length]" class="aspect-[16/10]" />
+          <Photo :src="r.image" :alt="r.name" :tone="roomTones[i % roomTones.length]" class="aspect-[16/10]" />
           <div class="p-6">
             <div class="flex items-baseline justify-between">
               <h3 class="text-xl font-bold">{{ r.name }}</h3>

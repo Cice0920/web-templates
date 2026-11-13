@@ -5,7 +5,7 @@ export default {
   tagline: '指尖上的小日常，也值得被好好對待',
   intro:
     '一人預約制工作室，每次只服務一位客人。使用日本進口膠、器具一客一消毒，從手部保養到設計款，陪你慢慢挑出最適合自己的樣子。',
-  heroImage: '',
+  heroImage: '/images/studio-hero.jpg',
   services: [
     { name: '單色凝膠', duration: '60 分', price: 900, note: '含基礎保養' },
     { name: '漸層 / 貓眼', duration: '90 分', price: 1200, note: '' },
@@ -13,7 +13,14 @@ export default {
     { name: '手部保養', duration: '45 分', price: 600, note: '去角質、修甲、護手' },
     { name: '卸甲', duration: '30 分', price: 300, note: '本店做的免費' },
   ],
-  works: ['奶茶色漸層', '法式白邊', '貓眼星空', '手繪花朵', '暈染大理石', '極簡線條'],
+  works: [
+    { name: '奶茶色漸層', image: '/images/studio-hero.jpg' },
+    { name: '法式白邊', image: '/images/studio-nails-2.jpg' },
+    { name: '貓眼星空', image: '/images/studio-nails-3.jpg' },
+    { name: '手繪花朵', image: '/images/studio-nails-2.jpg' },
+    { name: '暈染大理石', image: '/images/studio-hero.jpg' },
+    { name: '極簡線條', image: '/images/studio-nails-3.jpg' },
+  ],
   steps: [
     { title: '加 LINE', text: '點下方按鈕加入官方帳號' },
     { title: '選時段', text: '傳送想做的款式與日期' },

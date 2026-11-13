@@ -5,7 +5,8 @@ export default {
   tagline: '一杯手沖，一段慢下來的午後',
   intro:
     '我們在巷弄裡的老房子烘豆、沖煮。每一支豆子都親自杯測挑選，搭配每日現烤的甜點，希望你在這裡找到屬於自己的安靜時光。',
-  heroImage: '', // 例：'/images/cafe/hero.jpg'
+  heroImage: '/images/cafe-hero.jpg',
+  interiorImage: '/images/cafe-interior.jpg',
   features: [
     { title: '自家烘焙', text: '每週小批次烘豆，確保新鮮風味。' },
     { title: '每日甜點', text: '早上現烤，賣完為止。' },
@@ -37,7 +38,12 @@ export default {
       ],
     },
   ],
-  gallery: ['店內一隅', '手沖吧台', '甜點櫃', '戶外座位'],
+  gallery: [
+    { name: '店內一隅', image: '/images/cafe-interior.jpg' },
+    { name: '手沖吧台', image: '/images/cafe-hero.jpg' },
+    { name: '甜點櫃', image: '/images/brunch-pancake.jpg' },
+    { name: '戶外座位', image: '/images/brunch-plate.jpg' },
+  ],
   hours: [
     { day: '週一', time: '公休' },
     { day: '週二 – 週五', time: '10:00 – 18:00' },

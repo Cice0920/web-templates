@@ -80,8 +80,8 @@ const workTones = ['from-blush-100 to-blush-300', 'from-blush-300 to-blush-500',
         <a :href="site.contact.instagram" target="_blank" class="text-sm text-blush-500 hover:underline">更多作品在 Instagram →</a>
       </div>
       <div class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
-        <div v-for="(w, i) in site.works" :key="w" class="group overflow-hidden rounded-2xl">
-          <Photo :alt="w" :tone="workTones[i % workTones.length]" class="aspect-square transition duration-500 group-hover:scale-105" />
+        <div v-for="(w, i) in site.works" :key="w.name" class="group overflow-hidden rounded-2xl">
+          <Photo :src="w.image" :alt="w.name" :tone="workTones[i % workTones.length]" class="aspect-square transition duration-500 group-hover:scale-105" />
         </div>
       </div>
     </section>

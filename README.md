@@ -1,12 +1,18 @@
 # 網站模板展示
 
-Nuxt 4（SSG）+ Tailwind CSS 4，三個產業模板：
+Nuxt 4（SSG）+ Tailwind CSS 4，3 種產業 × 3 款風格：
 
-| 路徑 | 模板 | 內容設定檔 |
-|---|---|---|
-| `/cafe` | 咖啡廳 / 餐廳 | `app/data/cafe.ts` |
-| `/studio` | 工作室 / 美業 | `app/data/studio.ts` |
-| `/stay` | 民宿 / 包車旅遊 | `app/data/stay.ts` |
+| 產業 | 路徑 | 模板 | 風格 | 內容設定檔 |
+|---|---|---|---|---|
+| 咖啡廳 / 餐廳 | `/cafe` | 日光咖啡 | 溫暖文青 | `app/data/cafe.ts` |
+| | `/brunch` | 白日 Brunch | 極簡明亮 | `app/data/brunch.ts` |
+| | `/bistro` | 夜行 餐酒館 | 深色高級 | `app/data/bistro.ts` |
+| 工作室 / 美業 | `/studio` | 綻．美甲 | 柔和粉嫩 | `app/data/studio.ts` |
+| | `/salon` | MUSE 髮廊 | 黑白雜誌 | `app/data/salon.ts` |
+| | `/pilates` | Flow 皮拉提斯 | 自然療癒 | `app/data/pilates.ts` |
+| 民宿 / 旅遊 | `/stay` | 海角日和 | 海景清爽 | `app/data/stay.ts` |
+| | `/glamping` | 森呼吸 露營 | 山林戶外 | `app/data/glamping.ts` |
+| | `/oldhouse` | 町家 老宅旅店 | 復古台味 | `app/data/oldhouse.ts` |
 
 ## 本機開發
 
